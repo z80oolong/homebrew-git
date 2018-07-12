@@ -22,11 +22,19 @@ VFAT ファイルシステム及び [Android OS][ANDR] 及び [Debian noroot 環
 
 ### z80oolong/git/git@2.17.1
 
-この Formula は、安定版である [git 2.17.1][GIT_] に、 "[git 2.17.0 以降において config ファイルの lock に失敗する場合の挙動を変更する差分ファイル][GST1]" を適用したものを導入します。
+この Formula は、旧安定版である [git 2.17.1][GIT_] に、 "[git 2.17.0 以降において config ファイルの lock に失敗する場合の挙動を変更する差分ファイル][GST1]" を適用したものを導入します。
 
 **この Formula は、 versioned formula であるため、この Formula によって導入される [git][GIT_] は、 keg only で導入されることに留意して下さい。**
 
 この Formula によって導入される [git][GIT_] を使用するには、 ```brew link --force z80oolong/git/git@2.17.1``` コマンドを実行する必要があります。
+
+### z80oolong/git/git@2.18.0
+
+この Formula は、安定版である [git 2.18.0][GIT_] に、 "[git 2.17.0 以降において config ファイルの lock に失敗する場合の挙動を変更する差分ファイル][GST1]" を適用したものを導入します。
+
+**この Formula は、 versioned formula であるため、この Formula によって導入される [git][GIT_] は、 keg only で導入されることに留意して下さい。**
+
+この Formula によって導入される [git][GIT_] を使用するには、 ```brew link --force z80oolong/git/git@2.18.0``` コマンドを実行する必要があります。
 
 <!-- 外部リンク一覧 -->
 

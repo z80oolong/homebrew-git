@@ -1,20 +1,14 @@
-class Git < Formula
+class GitAT2180 < Formula
   desc "Distributed revision control system"
   homepage "https://git-scm.com"
   url "https://www.kernel.org/pub/software/scm/git/git-2.18.0.tar.xz"
   sha256 "8b40be383a603147ae29337136c00d1c634bdfdc169a30924a024596a7e30e92"
-  head "https://github.com/git/git.git", :shallow => false
 
-  if build.head? then
-    patch do
-      url "https://raw.githubusercontent.com/z80oolong/diffs/master/git/git-HEAD-e3331758-fix.diff"
-      sha256 "a7aa7ec41b8c7ebb63366f533180f07e1c14a053ada0b2baff52a6ed9891db3c"
-    end
-  else
-    patch do
-      url "https://raw.githubusercontent.com/z80oolong/diffs/master/git/git-2.18.0-fix.diff"
-      sha256 "50b6154a29ba9e726c608771da77c0a4ff2ee3ff8a8f137cc1f08ddfcf6473ff"
-    end
+  keg_only :versioned_formula
+
+  patch do
+    url "https://raw.githubusercontent.com/z80oolong/diffs/master/git/git-2.18.0-fix.diff"
+    sha256 "50b6154a29ba9e726c608771da77c0a4ff2ee3ff8a8f137cc1f08ddfcf6473ff"
   end
 
   option "with-blk-sha1", "Compile with the block-optimized SHA1 implementation"
