@@ -1,14 +1,14 @@
-class GitAT2180 < Formula
+class GitAT220 < Formula
   desc "Distributed revision control system"
   homepage "https://git-scm.com"
-  url "https://www.kernel.org/pub/software/scm/git/git-2.18.0.tar.xz"
-  sha256 "8b40be383a603147ae29337136c00d1c634bdfdc169a30924a024596a7e30e92"
+  url "https://www.kernel.org/pub/software/scm/git/git-2.20.1.tar.xz"
+  sha256 "9d2e91e2faa2ea61ba0a70201d023b36f54d846314591a002c610ea2ab81c3e9"
 
   keg_only :versioned_formula
 
   patch do
-    url "https://raw.githubusercontent.com/z80oolong/diffs/master/git/git-2.18.0-fix.diff"
-    sha256 "50b6154a29ba9e726c608771da77c0a4ff2ee3ff8a8f137cc1f08ddfcf6473ff"
+    url "https://raw.githubusercontent.com/z80oolong/git-config-fix/master/git-2.20.0-fix.diff"
+    sha256 "53cc98aa7120545923e9ada0bcf4ee8307fb5fd40ead5f62848c8204d5fa6464"
   end
 
   option "with-blk-sha1", "Compile with the block-optimized SHA1 implementation"
@@ -56,13 +56,13 @@ class GitAT2180 < Formula
   end
 
   resource "html" do
-    url "https://www.kernel.org/pub/software/scm/git/git-htmldocs-2.18.0.tar.xz"
-    sha256 "5b70d9b1f86aad464ae172040eb87da83058c00581388af6f60b050214912efc"
+    url "https://www.kernel.org/pub/software/scm/git/git-htmldocs-2.19.0.tar.xz"
+    sha256 "d5f850b9c6e87ad10ff24801c1c5ab9cd769e9e444881e9fdb8e6cc116fd8040"
   end
 
   resource "man" do
-    url "https://www.kernel.org/pub/software/scm/git/git-manpages-2.18.0.tar.xz"
-    sha256 "9ae3be95e63379597164c79c9018e84b7ef6964da923e5689dbc307693266096"
+    url "https://www.kernel.org/pub/software/scm/git/git-manpages-2.19.0.tar.xz"
+    sha256 "4e51041b9636a1fdd8887091d1cca8b0cc6af3f1761870edd091e074378e7dcb"
   end
 
   def install

@@ -1,13 +1,13 @@
-class GitAT2171 < Formula
+class GitAT217 < Formula
   desc "Distributed revision control system"
   homepage "https://git-scm.com"
-  url "https://www.kernel.org/pub/software/scm/git/git-2.17.1.tar.xz"
-  sha256 "79136e7aa83abae4d8a25c8111f113d3c5a63aeb5fd93cc72c26d49c6d5ba65e"
+  url "https://www.kernel.org/pub/software/scm/git/git-2.17.2.tar.xz"
+  sha256 "c898ce359c35e553fee1a762b8f89aeb0a7a9940c35f8d47e8f0625f3b9514be"
 
   keg_only :versioned_formula
 
   patch do
-    url "https://raw.githubusercontent.com/z80oolong/diffs/master/git/git-2.17.0-fix.diff"
+    url "https://raw.githubusercontent.com/z80oolong/git-config-fix/master/git-2.17.0-fix.diff"
     sha256 "cbfb7593468eca47c33fa8368b740fe1f0720e5a8215226d6ded0221fbb7028b"
   end
 
