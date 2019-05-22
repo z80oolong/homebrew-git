@@ -18,7 +18,7 @@ VFAT ファイルシステム及び [Android OS][ANDR] 及び [Debian noroot 環
 
 **この Formula は、 versioned formula であるため、この Formula によって導入される [git][GIT_] は、 keg only で導入されることに留意して下さい。**
 
-この Formula によって導入される [git][GIT_] を使用するには、 ```brew link --force z80oolong/git/git@2.17.0``` コマンドを実行する必要があります。
+この Formula によって導入される [git][GIT_] を使用するには、 ```brew link --force z80oolong/git/git@2.17``` コマンドを実行する必要があります。
 
 ### z80oolong/git/git@2.18
 
@@ -26,7 +26,7 @@ VFAT ファイルシステム及び [Android OS][ANDR] 及び [Debian noroot 環
 
 **この Formula は、 versioned formula であるため、この Formula によって導入される [git][GIT_] は、 keg only で導入されることに留意して下さい。**
 
-この Formula によって導入される [git][GIT_] を使用するには、 ```brew link --force z80oolong/git/git@2.17.1``` コマンドを実行する必要があります。
+この Formula によって導入される [git][GIT_] を使用するには、 ```brew link --force z80oolong/git/git@2.18``` コマンドを実行する必要があります。
 
 ### z80oolong/git/git@2.19
 
@@ -34,7 +34,7 @@ VFAT ファイルシステム及び [Android OS][ANDR] 及び [Debian noroot 環
 
 **この Formula は、 versioned formula であるため、この Formula によって導入される [git][GIT_] は、 keg only で導入されることに留意して下さい。**
 
-この Formula によって導入される [git][GIT_] を使用するには、 ```brew link --force z80oolong/git/git@2.18.0``` コマンドを実行する必要があります。
+この Formula によって導入される [git][GIT_] を使用するには、 ```brew link --force z80oolong/git/git@2.19``` コマンドを実行する必要があります。
 
 ### z80oolong/git/git@2.20
 
@@ -42,7 +42,7 @@ VFAT ファイルシステム及び [Android OS][ANDR] 及び [Debian noroot 環
 
 **この Formula は、 versioned formula であるため、この Formula によって導入される [git][GIT_] は、 keg only で導入されることに留意して下さい。**
 
-この Formula によって導入される [git][GIT_] を使用するには、 ```brew link --force z80oolong/git/git@2.18.0``` コマンドを実行する必要があります。
+この Formula によって導入される [git][GIT_] を使用するには、 ```brew link --force z80oolong/git/git@2.20``` コマンドを実行する必要があります。
 
 ### z80oolong/git/git@2.21
 
@@ -50,7 +50,7 @@ VFAT ファイルシステム及び [Android OS][ANDR] 及び [Debian noroot 環
 
 **この Formula は、 versioned formula であるため、この Formula によって導入される [git][GIT_] は、 keg only で導入されることに留意して下さい。**
 
-この Formula によって導入される [git][GIT_] を使用するには、 ```brew link --force z80oolong/git/git@2.18.0``` コマンドを実行する必要があります。
+この Formula によって導入される [git][GIT_] を使用するには、 ```brew link --force z80oolong/git/git@2.21``` コマンドを実行する必要があります。
 
 <!-- 外部リンク一覧 -->
 
