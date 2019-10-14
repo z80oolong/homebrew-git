@@ -16,8 +16,8 @@ class Git < Formula
     url "https://github.com/git/git.git", :shallow => false
     
     patch do
-      url "https://raw.githubusercontent.com/z80oolong/git-config-fix/master/git-HEAD-4c861400-fix.diff"
-      sha256 "3c1b761e2ded9b409c386d86dd33b4a9efe7842bd6cca45f50de542c0e077442"
+      url "https://raw.githubusercontent.com/z80oolong/git-config-fix/master/git-HEAD-08da6496-fix.diff"
+      sha256 "624ecaddd0891648c9e20000e3d213bc7548a8db4c7c9e4eb4ecb36ca495dc82"
     end
   end
 
